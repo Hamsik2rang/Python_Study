@@ -64,7 +64,7 @@ print(f"My height is {182.2421:.1f}cm") #My height is 182.2cm
 
 #### input()
 
-Reference = **input([*prompt*])**
+***Reference = input([*prompt*])***
 
 ```python
 a = input("a의 값을 입력하세요.")
