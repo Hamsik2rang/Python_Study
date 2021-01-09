@@ -1,7 +1,7 @@
+# love calculator(이름궁합 프로그램)
 print("Welcome to the Love Calculator!")
 name1 = input("What is your name? \n")
 name2 = input("What is their name? \n")
-# Write your code below this line 👇
 
 name1 = name1.lower()
 name2 = name2.lower()

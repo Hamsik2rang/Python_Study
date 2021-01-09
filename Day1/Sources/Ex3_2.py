@@ -1,7 +1,7 @@
+# BMI Calculator
 height = float(input("enter your height in m: "))
 weight = float(input("enter your weight in kg: "))
 
-# Write your code below this line 👇
 bmi = round(int(weight) / float(height) ** 2)
 
 if 18.5 > bmi:
