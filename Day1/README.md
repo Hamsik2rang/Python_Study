@@ -30,7 +30,7 @@ C에서 기본 입출력 함수로 `printf`, `scanf`를 이용하듯이, 파이�
 
 #### print()
 
-**Reference = print(\*\*objects*, *sep=' '*, *end='\n'*, *file=sys.stdout*, *flush=False*)**
+***Reference = print(\*\*objects*, *sep=' '*, *end='\n'*, *file=sys.stdout*, *flush=False*)**
 
 ```python
 print("output string")
@@ -64,7 +64,7 @@ print(f"My height is {182.2421:.1f}cm") #My height is 182.2cm
 
 #### input()
 
-Reference = **input([*prompt*])**
+***Reference = input([*prompt*])***
 
 ```python
 a = input("a의 값을 입력하세요.")
