@@ -97,6 +97,10 @@ print(f"\na is {a},")
 a.insert(3, 5)
 print(f"after insert 5 at index 3, a is {a}")
 
+# count
+a = [1,2,3,2,4,1,2]
+print(f"\na is {a}, count of 2 in a is {a.count(2)}")
+
 # range to list
 a = list(range(1,11))
 print(f"\n{a}")
