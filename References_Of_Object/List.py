@@ -5,7 +5,6 @@ print(a)
 # indexing
 a = [1,2,3,4]
 
-print()
 print(f"\n0th element in a is {a[0]}")
 
 # slicing
