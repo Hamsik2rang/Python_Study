@@ -11,13 +11,11 @@ print(f"\n0th element in a is {a[0]}")
 # slicing
 a = [1,2,3,4]
 
-print()
 print(f"\n0th~2nd elements in a is {a[0:3]}")
 
 # n-dimentional list
 a = [1,2,3,[4,5,6]]
 
-print()
 print(f"\nIf a is {a}, a[3][1] is {a[3][1]}")
 
 # add list
