@@ -9,7 +9,7 @@ class GameManager(Turtle):
         self.penup()
         self.goto(0, 260)
         self.game_is_on = True
-        self.score = 0
+        self.score = 3
         self.update_scoreboard()
 
     def game_over(self):

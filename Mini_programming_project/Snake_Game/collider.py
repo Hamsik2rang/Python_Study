@@ -24,10 +24,10 @@ class Collider:
 
     def collide_with_wall(self):
         if (
-            self.snake.body[0].xcor() > 280
-            or self.snake.body[0].xcor() < -280
-            or self.snake.body[0].ycor() < -280
-            or self.snake.body[0].ycor() > 280
+            self.snake.body[0].xcor() > 290
+            or self.snake.body[0].xcor() < -290
+            or self.snake.body[0].ycor() < -290
+            or self.snake.body[0].ycor() > 290
         ):
             return True
         else:
