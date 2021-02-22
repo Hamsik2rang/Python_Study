@@ -9,12 +9,12 @@ odd_numbers = [i for i in numbers if i & 1 != 0]
 print(odd_numbers)
 
 with open("./Day10/Resources/file1.txt", mode="r") as f1:
-    list_one = list(map(int, f1.readlines()))
+    list_1 = list(map(int, f1.readlines()))
 
 with open("./Day10/Resources/file2.txt", mode="r") as f2:
-    list_two = list(map(int, f2.readlines()))
+    list_2 = list(map(int, f2.readlines()))
 
 
-list_intersection = [i for i in list_one if i in list_two]
+list_intersection = [i for i in list_1 if i in list_2]
 
 print(list_intersection)
