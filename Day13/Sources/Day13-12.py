@@ -4,8 +4,6 @@
 from abc import *
 
 # For define Abstract class, pass ABCMeta to metaclass keyward argument.
-
-
 class MyAbClass(metaclass=ABCMeta):
     # For define Abstract method, use decorator '@abstractmethod' avobe the definition of function.
     @abstractmethod
