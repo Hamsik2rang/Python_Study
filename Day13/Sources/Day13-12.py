@@ -35,6 +35,3 @@ mc = MyClass("Hamsik2rang")
 
 mc.print_name()
 MyClass.print_object_count()
-
-
-dic = {"apple": "맛있다", "banana": "길다", "carrot": "두껍다"}
