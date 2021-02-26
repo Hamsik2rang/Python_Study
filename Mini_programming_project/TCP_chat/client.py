@@ -1,8 +1,9 @@
 import socket
 import threading
 
-HOST = "127.0.0.1"
-PORT = 8000
+# Loopback IP Address
+HOST = '127.0.0.1'
+PORT = 1216
 
 
 def recv_msg(sock):
