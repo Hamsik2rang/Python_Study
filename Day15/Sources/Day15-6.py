@@ -1,4 +1,6 @@
 # pack(), grid(), place() in Tkinter
+# Miles to Kilometer GUI Converter using Tkinter.
+# NOTICE: .grid() is very relative geometry function.
 from tkinter import *
 from typing import Collection
 
