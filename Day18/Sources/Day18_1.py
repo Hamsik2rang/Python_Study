@@ -87,7 +87,7 @@ def mod_exp(under, index, m):
     x = 1
     pow = under % m
     a = index
-    for _ in range(0, index):
+    while a > 0:
         if a & 1 == 1:
             x = (x * pow) % m
         pow = (pow * pow) % m
